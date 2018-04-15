@@ -1,0 +1,172 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/*-----------------------Header---------------------------*/
+
+header {
+    margin: auto;
+    width: 80%;
+}
+
+a.logo {
+    background: url('../images/logo.png') no-repeat left;
+    background-size: 70px 70px;
+    display: inline-block;
+    height: 86px;
+    width: 220px;
+    padding-top: 10px;
+    padding-left: 80px;
+}
+
+a.logo h1 {
+    margin: 0;
+    padding-top: 25px;
+    font-size: 25px;
+}
+
+nav {
+    display: inline;
+    padding-left: 5%;
+}
+
+nav a {
+    padding-left: 60px;
+}
+
+/*-----------------------Main---------------------------*/
+
+main {
+    padding: 0;
+    margin: 0;
+}
+
+#Cover_Section {
+    background: url('../images/mid_pic.jpg') no-repeat;
+    background-size: cover;
+    display: block;
+    width: 100%;
+    height: 5%;
+    color: white;
+    /*text-align: center;*/
+    padding-bottom: 12%;
+    padding-top: 10%;
+}
+
+#Cover_Section h2 {
+    display: inline-block;
+    font-size: 36px;
+    width: 100%;
+
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+#Cover_Section h3 {
+
+    display: inline-block;
+    width: 34%;
+    margin-left: 33%;
+    font-size: 12px;
+    font-weight: bolder;
+    border-bottom: 1px solid white;
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+#Cover_Section a {
+    display: inline-block;
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    padding: 8px 8px 8px 8px;
+    font-size: 12px;
+    margin-left: 47%;
+}
+
+#Headline_Section {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#eeeeee+0,efefef+100 */
+    background: rgb(238, 238, 238);
+    /* Old browsers */
+    background: -moz-linear-gradient(top, rgba(238, 238, 238, 1) 0%, rgba(239, 239, 239, 1) 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(238, 238, 238, 1) 0%, rgba(239, 239, 239, 1) 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(238, 238, 238, 1) 0%, rgba(239, 239, 239, 1) 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eeeeee', endColorstr='#efefef', GradientType=0);
+    /* IE6-9 */
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#Headline_Section p {
+    font-size: 12px;
+}
+
+#Content_Section {
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    padding-bottom: 130px;
+    padding-top: 20px;
+}
+
+#Content_Section h2 {
+    text-align: center;
+    padding-bottom: 60px;
+}
+
+#Content_Section ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+#Content_Section li {
+    padding: 0;
+    display: inline;
+}
+
+#Content_Section li img {
+    width: 85px;
+}
+
+/*-----------------------Footer---------------------------*/
+
+footer {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#61c3cc+0,61c3cc+100 */
+    background: rgb(97, 195, 204);
+    /* Old browsers */
+    background: -moz-linear-gradient(top, rgba(97, 195, 204, 1) 0%, rgba(97, 195, 204, 1) 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(97, 195, 204, 1) 0%, rgba(97, 195, 204, 1) 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(97, 195, 204, 1) 0%, rgba(97, 195, 204, 1) 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#61c3cc', endColorstr='#61c3cc', GradientType=0);
+    /* IE6-9 */
+    padding: 0;
+    margin: 0;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    text-align: center;
+}
+
+footer a img {
+    width: 50px;
+    height 50px;
+}
