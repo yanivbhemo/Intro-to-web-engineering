@@ -8,16 +8,16 @@ body {
     clear: both;
 }
 
-#wrapper {
+body#layout1 #wrapper {
     margin: 0 auto;
     width: 1000px;
 }
 
-header {
+body#layout1header {
     display: block;
 }
 
-#logo{
+body#layout1 #logo{
     display: block;
     background-image: url(../images/logo.png);
     background-repeat: no-repeat;
@@ -27,7 +27,7 @@ header {
     margin-top:10px;
 }
 
-header nav {
+body#layout1 header nav {
     width: 717px;
     float: right;
     background-color: #b94a48;
@@ -35,7 +35,7 @@ header nav {
     padding-bottom: 20px;
 }
 
-header nav a {
+body#layout1 header nav a {
     text-decoration: none;
     color: white;
     padding-left:86px;
@@ -44,31 +44,31 @@ header nav a {
     padding-bottom: 21px;
 }
 
-header nav a#active{
+body#layout1 header nav a#active{
     background-color: #333333;
 }
 
 
-main {
+body#layout1 main {
     display: block;
     width: 100%;
 }
 
-aside {
+body#layout1 aside {
     width: 122px;
     height: 698px;
     background-color: #f2dede;
     float: left;
 }
 
-section#top {
+body#layout1 section#top {
     width: 852px;
     height: 269px;
     background-color:#ee5f5b;
     float: right;
 }
 
-section#top #small_cube {
+body#layout1 section#top #small_cube {
     width: 128px;
     height: 96px;
     background-color: #5f2624;
@@ -76,7 +76,7 @@ section#top #small_cube {
     top:89px;
     left: 340px;
 }
-section#bottom {
+body#layout1 section#bottom {
     float: right;
     background-color: #666666;
     height: 176px;
@@ -86,9 +86,98 @@ section#bottom {
     right: 91px;
 }
 
-footer {
+body#layout1 footer {
     display: block;
     height: 120px;
     width: 100%;
     background-color: #d6d6d6;
+}
+
+/*-----------2nd Layout--------------*/
+
+body#layout2 #wrapper {
+    margin: 0px auto;
+    width: 1000px;
+}
+
+body#layout2 header{
+    display: block;
+    padding-top: 38px;
+    padding-bottom: 154px;
+}
+
+body#layout2 header a#logo{
+    display: block;
+    background-image: url(../images/logo.png);
+    background-repeat: no-repeat;
+    height: 69px;
+    width: 70px;
+    margin: 0px auto;
+}
+
+body#layout2 header nav {
+    background-color: #333333;
+    height: 886px;
+    width: 242px;
+    float: left;
+    margin-top: 154px;
+}
+
+body#layout2 header nav a {
+    display: block;
+    text-decoration: none;
+    color: #dedede;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 6px;
+}
+body#layout2 header nav a#selected{
+    background-color: #b84948
+}
+
+body#layout2 main {
+    background-color: #ed5f5c;
+    height: 886px;
+    padding-left: 242px;
+}
+
+body#layout2 main section{
+    display: block;
+    float: left;
+    height: 100%;
+    margin-left: 30px;
+    max-height: 1000px;
+}
+
+body#layout2 article {
+    background-color: #5e2624;
+    width: 212px;
+}
+
+body#layout2 article#top_left {
+    height: 366px;
+}
+
+body#layout2 article#top_mid {
+    height: 560px;
+}
+
+body#layout2 article#top_right {
+    height: 223px;
+}
+
+body#layout2 article#bottom_left {
+    height: 500px;
+    margin-top: 20px;
+}
+
+body#layout2 article#bottom_mid {
+    height: 306px;
+    margin-top: 20px;
+}
+
+body#layout2 footer {
+    width: 100%;
+    background-color: #d6d6d6;
+    height: 48px;
 }
