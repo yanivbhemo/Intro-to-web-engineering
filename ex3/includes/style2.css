@@ -7,14 +7,19 @@
     margin: 0px auto;
     width: 1000px;
     height: 1000px;
-    background: red;
 }
 
 header {
     display: block;
     height: 500px;
-    width: 100%;
+    width: 500px;
     background: green;
+    float: left;
+}
+
+header #header_left_box{
+    background-color: red;
+    height: 100px;
 }
 
 header a#logo {
@@ -23,25 +28,21 @@ header a#logo {
     height: 70px;
     width: 67px;
     display: block;
-    margin-top: 22px;
+    padding-top: 22px;
     margin-left: 22px;
     padding-bottom: 350px;
 }
 
 header nav {
-    display: block;
     background-color: antiquewhite;
     width: 100%;
-    height: 60px;
+    height: 100%;
 }
 
 header nav a {
-    padding-top: 31px;
-    padding-bottom: 31px;
-    padding-left: 84px;
-    padding-right: 84px;
     text-decoration: none;
     background-color: aqua;
+    display: block;
 }
 
 main
@@ -57,20 +58,4 @@ main
     height: 500px;
     width: 500px;
     float: left;
-}
-
-header div#header_left_box{
-    background-color: azure;
-}
-
-header div#header_right_box{
-    
-}
-
-main div#main_left_box{
-    
-}
-
-main div#main_right_box{
-    
 }

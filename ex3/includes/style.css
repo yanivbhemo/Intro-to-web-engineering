@@ -177,7 +177,8 @@ body#layout2 article#bottom_mid {
 }
 
 body#layout2 footer {
-    width: 100%;
+    width: 1000px;
     background-color: #d6d6d6;
     height: 48px;
+    
 }
