@@ -182,3 +182,109 @@ body#layout2 footer {
     height: 48px;
     
 }
+
+/*-----------3nd Layout--------------*/
+
+body#layout3 a { text-decoration: none; color: inherit;}
+
+body#layout3 #wrapper
+{
+    margin: 0px auto;
+    width: 60%;
+    height: 1000px;
+    
+}
+
+body#layout3 header
+{
+    display: block;
+    height: 500px;
+    width: 505px;
+    float: left;
+    
+}
+
+body#layout3 header div#logo_area {
+    width: auto;
+    display: block;
+    height: 69px;
+    padding-top: 20px;
+    margin-left: 20px;
+    padding-bottom: 118px;
+}
+
+body#layout3 header a#logo{
+    background-image: url(../images/logo.png);
+    background-repeat: no-repeat;
+    display: block;
+    width: 100%;
+    height: 69px;
+}
+body#layout3 header div#plus_area {
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 145px;
+}
+
+body#layout3 header nav {
+    display: block;
+    color: white;
+    height: 58px;
+    background-color: #b94a48;
+}
+
+body#layout3 header nav a {
+    float:left;
+    padding-top: 21px;
+    padding-bottom: 18px;
+    padding-left:55px;
+    padding-right:51px;
+    background-color: #b94a48;
+}
+body#layout3 header nav a#selected {
+    background-color: #333333;
+}
+
+body#layout3 main{
+    height: 100%;
+    width: 100%;
+}
+
+body#layout3 main div.box{
+    float: left;
+    height: 500px;
+    width: 50%;
+}
+body#layout3 .box_small {
+    background-color: #b94a48;
+}
+body#layout3 .box_small:hover{
+    background-color: inherit;
+}
+
+body#layout3 .box_small:nth-child(1){
+    float:left;
+    height: 250px;
+    width: 50%;
+    opacity: 1;
+}
+
+body#layout3 .box_small:nth-child(2){
+    float:left;
+    height: 250px;
+    width: 50%;
+    opacity: 0.8;
+}
+body#layout3 .box_small:nth-child(3){
+    float:left;
+    height: 250px;
+    width: 50%;
+    opacity: 0.6;
+}
+body#layout3 .box_small:nth-child(4){
+    float:left;
+    height: 250px;
+    width: 50%;
+    opacity: 0.4;
+}
