@@ -2,29 +2,17 @@
 <html>
     <head>
         <title></title>
-        <script>
-        window.onload = function() {
-            var childName = ChangeString("Yaniv");
-            
-            document.getElementById("secName").innerHTML = "<h3>" + childName + "</h3>";
-            
-            function ChangeString(newname){
-                if(newname.indexOf("a") != -1) //true
-                {
-                    newname = "Hello " + newname.substring(0,1);
-                }
-                else {
-                    newname = "Goodbye " + newname;
-                }
-                return newname;
-            }
-        }
-        </script>
+        <link href="style.css">
     </head>
     <body>
-        <button id="btn" style="padding: 10px 40px;">Click on me</button>
-        <h1 id="pageTitle">Our products</h1>
-        <section id="secName"></section>
-        
+        <section class="leftCol">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor <br> Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+        </section>
+        <section class="midCol">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor <br> Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+        </section>
+        <section class="rightCol">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor <br> Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+        </section>
     </body>
 </html>
