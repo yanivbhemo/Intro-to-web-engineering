@@ -255,9 +255,10 @@ body#layout3 main div.box{
     float: left;
     height: 500px;
     width: 500px;
+    background-color: #b94a48;
 }
 body#layout3 .box_small {
-    background-color: #b94a48;
+    background-color: black;
 }
 body#layout3 .box_small:hover{
     background-color: inherit;

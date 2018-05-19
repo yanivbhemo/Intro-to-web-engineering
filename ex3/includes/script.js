@@ -1,6 +1,8 @@
 (function() {
     var i, j, counter = 0;
     var box = ["box2", "box3"];
+    document.getElementById(box[0]).style.display = "none";
+    document.getElementById(box[1]).style.display = "none";
     
     var cube1 = document.createElement("div");
     cube1.className="box_small";
@@ -26,6 +28,7 @@
         {
             for(i=0;i<4;i++)
             {
+                document.getElementById(box[0]).style.display = "block";
                 document.getElementById(box[0]).appendChild(cube_arr[i]);
             }
             counter++;
@@ -34,6 +37,7 @@
         {
             for(i=4;i<8;i++)
             {
+                document.getElementById(box[1]).style.display = "block";
                 document.getElementById(box[1]).appendChild(cube_arr[i]);
             }
             counter--;
