@@ -1,0 +1,19 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+body {
+    font-family: Arial;
+    font-size: 100%;
+}
+section {
+    display: block;
+}
+
+.leftCol {
+    float:left;
+    width: 40%;
+    margin-right: 5%;
+    background: yellow;
+    font-size: 1.4vw;
+}
